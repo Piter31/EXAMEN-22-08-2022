@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+} 
+
+.encabezado-cont {
+    background-color: rgba(100, 123, 194, 0.384);
+    width: 100%;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.flex-item {
+    border: solid 1.5px rgba(88, 87, 87, 0.411);
+}
+
+.flex-item.end {
+    align-self: flex-end;
+    display: inline-block;
+}
+
+.menu1 {
+    background-color: rgb(13, 167, 33);
+    align-self: flex-start;
+    width: 400px;
+    height: 30px;
+    margin-left: auto;
+}
+
+.menu2 {
+    background-color: rgb(116, 190, 194);
+    height: 30px;
+    width: 650px;
+    margin-left: auto;
+}
+
+.logo {
+    background-color: rgba(167, 85, 226, 0.904);
+    width: 200px;
+    height: 30px;
+    margin-right: auto;
+}
+
+.flex-igual > div {
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 230px;
+    border-radius: 8px;
+    border: solid rgba(0, 0, 0, 0.5);
+    flex-grow: 1;
+}
+
+.izq {
+    background-color: rgb(90, 74, 74);
+}
+
+.centro {
+    background-color: rgba(226, 111, 69, 0.726);
+}
+
+.der {
+    background-color: rgba(235, 49, 86, 0.76);
+}
+
+.flex-item2 > div{
+    display: inline-block;
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.658);
+    border-radius: 8px;
+    height: 260px;
+    flex-grow: 1;
+}
+
+.izq2 {
+    background-color: rgb(5, 92, 5);
+    width: 1025px;
+}
+
+.der2 {
+    background-color: orangered;
+    width: 500px;
+}
+
+.pie {
+    background-color: rgba(53, 156, 204, 0.712);
+    border-radius: 5px;
+    height: 15vh; 
+}
+
+.elemento {
+    background-color: rgba(27, 27, 209, 0.61);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    align-self: flex-end;
+    height: 30px;
+    width: 200px;
+    border: solid 1px rgba(27, 27, 138, 0.699);
+    margin-left: auto;
+    margin-bottom: 35px;
+}
