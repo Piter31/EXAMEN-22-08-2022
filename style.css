@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel-item > img {
+    margin: 10px auto;
+}
+
+.nav-item {
+   
+}
+
+.col {
+    margin-left: auto;
+}
+
+.card > img {
+    margin: auto;
+    width: auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.btn.btn-primary {
+    display: block;
+    background-color: rgba(123, 158, 123, 0.87);
+    color: black;
+}
+
+form {
+    margin-left: 10px;
+}
+
+.formulario {
+    margin-top: 100px;
+}
